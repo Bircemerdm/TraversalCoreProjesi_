@@ -9,7 +9,7 @@ using EntityLayer.Concrete;
 
 namespace DataAccessLayer.EntityFramework
 {
-   public class EfAboutDal:GenericRepository<About>,IAboutDal
+    public class EfFeature2Dal: GenericRepository<Feature2>, IFeature2Dal
     {
     }
 }

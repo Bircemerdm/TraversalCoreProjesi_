@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using EntityLayer.Concrete;
 
-namespace DataAccessLayer.Abstract
+namespace BusinessLayer.Abstract
 {
-    public interface IFeatureDal: IGenericDal<Feature>
+    public interface ITestimonialService: IGenericService<Testimonial>
     {
     }
 }
